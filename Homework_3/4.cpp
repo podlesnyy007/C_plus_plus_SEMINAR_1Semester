@@ -1,3 +1,7 @@
+/*
+Функция увеличивает первый аргумент на второй
+*/
+
 #include <iostream>
 using namespace std;
 
