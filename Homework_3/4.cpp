@@ -1,13 +1,14 @@
 #include <iostream>
 using namespace std;
 
-int f(int &x, int y) {
-    return x += y;
+void f(int &x, int y) {
+    x += y;
 }
 
 int main()
 {
     int a, b;
     cin >> a >> b;
-    cout << f(a, b);
+    f(a, b);
+    cout << a << b;
 }
