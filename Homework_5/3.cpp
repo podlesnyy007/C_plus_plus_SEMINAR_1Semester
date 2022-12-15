@@ -15,4 +15,5 @@ int main()
 		if (a[i] == 0)
 			cout << i << " ";
 	}
+	delete[] a;
 }
